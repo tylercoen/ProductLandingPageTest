@@ -1,0 +1,100 @@
+body{
+  
+    background: #eee;
+
+}
+header{
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: #eee;
+
+}
+.header-img{
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+
+#nav-bar{
+  float: right;
+  width: 100%;
+  height: auto;
+  
+}
+
+.nav-link{
+  float: right;
+  padding: 0px 40px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+#form{
+  display: block;
+  padding: 75px 100px 75px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  text-align: center;
+  background: #eee;
+}
+
+#email{
+  height: 20px;
+  width: 250px;
+}
+
+#submit{
+  height: 25px;
+  width: 125px;
+  background-color: #F1C40E;
+  border: none;
+  color: black;
+  font-weight: bold;
+  
+}
+
+div{
+    display: in-line-block;
+    background: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-left: 200px;
+
+}
+
+#div-img{
+  width: 50px;
+  height: 50px;
+  align: left;
+}
+
+video{
+    display: block;  
+    background: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    align: center;
+    padding: 50px 0px;
+}
+
+@media screen and (max-width: 600px){
+  body{
+    background-color: white;
+  }
+}
